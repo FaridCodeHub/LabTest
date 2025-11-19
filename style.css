@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cube{
+    width: 50px;
+    height: 50px;
+    background-color: burlywood;
+    border: 3px solid red;
+    padding: 3px;
+    position: relative;
+    animation: cube 0.8s linear infinite;
+    
+}
+
+@keyframes cube{
+    from{ transform: rotateX(0deg) rotateY(0deg);}
+    to{ transform: rotateX(0deg) rotateY(0deg);}
+}
+
